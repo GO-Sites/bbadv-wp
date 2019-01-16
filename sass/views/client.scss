@@ -2,13 +2,21 @@
   font-size: 2.5rem;
   margin-bottom: 5rem;
   text-align: center;
+  font-family: $prox-black;
+  font-size: 40px;
+  color: $blued-gray;
+  overflow-x: hidden;
 }
 
 .card {
   border: none;
   padding: 0 3vw;
   .aspa {
-        
+    font-family: $prox-black;
+    font-size: 57px;
+    line-height: 1;
+    height: 4vh;
+    color: $blued-gray;
   }
 }
 

@@ -1,4 +1,20 @@
 $(document).ready(function(){
   $('.carousel').carousel()
-  $('.owl-carousel').owlCarousel();
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText: ["<img src='assets/icon/slide-arrow-black.svg'>","<img src='assets/icon/slide-arrow-black-r.svg'>"],
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:3
+      },
+      1000:{
+        items:3
+      }
+    }
+  });
 });
