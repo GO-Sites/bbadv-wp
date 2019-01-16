@@ -1,0 +1,39 @@
+.video {
+  text-align: center;
+  background-color: $blued-gray;
+}
+
+.video-description {
+  margin-top: 2.5rem;
+}
+
+.title {
+  font-family: 'Proxima Nova Bl';
+  display: block;
+  color: #fdda02;
+  font-size: 40px;
+}
+
+.video-text {
+  font-family: 'Proxima Nova Rg';
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  max-width: 40vw;
+}
+
+.cartilha {
+  margin-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: transparent;
+  border-color: $default-yellow;
+  border-radius: 0;
+  color: #fdda02;
+  transition: all .1s ease-in;
+  &:hover {
+    @include btn-hover;
+  }
+}

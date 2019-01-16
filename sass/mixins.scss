@@ -1,0 +1,39 @@
+@mixin btn-hover {
+  background-color: $default-yellow;
+  color: $blued-gray;
+  transform: scale(1.05);
+  -webkit-box-shadow: 7px 6px 28px -5px rgba(0,0,0,0.3);
+  -moz-box-shadow: 7px 6px 28px -5px rgba(0,0,0,0.3);
+  box-shadow: 7px 6px 28px -5px rgba(0,0,0,0.3);
+}
+
+@mixin desktop-lg {
+  @media only screen and (min-width: #{$desktop-lg-width}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media only screen and (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+@mixin tablet-xm {
+  @media only screen and (min-width: #{992px}) and (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media only screen and (min-width: #{$mobile-width}) and (max-width: #{992px}) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media only screen and (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+@mixin mobile-xs {
+  @media only screen and (max-width: #{$mobile-xs-width}) {
+    @content;
+  }
+}
