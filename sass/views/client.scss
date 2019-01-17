@@ -8,6 +8,12 @@
   overflow-x: hidden;
 }
 
+.slick-list{
+  max-width: 80vw;
+  display: block;
+  margin: 0 auto;
+}
+
 .card {
   border: none;
   padding: 0 3vw;
@@ -17,6 +23,11 @@
     line-height: 1;
     height: 4vh;
     color: $blued-gray;
+  }
+  .card-text {
+    font-family: $prox;
+    font-weight: bold;
+    font-size: 18px;
   }
 }
 
@@ -47,32 +58,21 @@
   display: block;
   position: relative;
   margin-bottom: 0;
+  font-family: $prox-black;
 }
 
-.owl-carousel .owl-item img {
+.user-position {
+  font-family: $prox;
+  font-weight: bold;
+}
+
+.user-icon {
   width: 80px;
   height: 80px;
-}
-
-.slide-arrow {
-  position: relative;
-  width: 25px;
-  -webkit-transition: all .15s ease-in-out;
-  -moz-transition: all .15s ease-in-out;
-  -ms-transition: all .15s ease-in-out;
-  -o-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
-  &:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
-  }
 }
 
 .client-content {
   display: block;
   position: relative;
-  min-height: 368px;
+  height: auto;
 }

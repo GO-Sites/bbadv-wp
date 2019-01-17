@@ -1,0 +1,68 @@
+.services {
+  padding: 80px 0;
+  text-align: center;
+
+  .video-services {
+    width: 100%;
+
+    iframe {
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .title-services {
+    margin-top: 40px;
+    font-size: 3rem;
+    font-family: $prox-black;
+    color: $blued-gray;
+}
+
+  .subtitle {
+    display: block;
+    margin: 20px auto;
+    max-width: 50vw;
+    font-family: $prox;
+    font-weight: bold;
+    color: $blued-gray;
+    font-size: 18px;
+}
+
+  .btn {
+    padding: 5px 50px;
+    color: #333d47;
+    background-color: transparent;
+    border-color: #333d47;
+    border-radius: 0;
+    margin: 20px 0;
+    &:hover {
+      @include btn-hover;
+      background: $blued-gray;
+      color: $white;
+    }
+  }
+
+  .slider-services {
+    margin: 80px 0;
+    .card {
+      i {
+        font-size: 80px;
+        color: $default-yellow;
+        margin: 20px 0;
+      }
+      .service-name {
+        font-family: $prox-black;
+        font-size: 22px;
+        color: $blued-gray;
+        text-transform: uppercase;
+      }
+      .service-desc {
+        font-family: $prox;
+        font-size: 15px;
+        color: $blued-gray;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

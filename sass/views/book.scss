@@ -1,0 +1,32 @@
+.book {
+  background-color: #333d47;
+
+  &-text {
+    color: #fff;
+  }
+
+  .title {
+    text-align: left;
+    font-size: 2.5rem;
+    color: $default-yellow;
+  }
+
+  .book-text {
+    margin: 40px 0;
+    font-family: $prox;
+    max-width: 40vw;
+  }
+
+  .btn {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: transparent;
+    border-color: $default-yellow;
+    border-radius: 0;
+    color: $default-yellow;
+
+    &:hover {
+      @include btn-hover
+    }
+  }
+}

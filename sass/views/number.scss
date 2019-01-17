@@ -1,0 +1,48 @@
+.number {
+  display: block;
+  position: relative;
+  padding: 80px 0;
+  background-color: #333d47;
+  font-size: $prox-black;
+  &-btn-content {
+    text-align: center;
+  }
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #fdda02;
+}
+
+.btn {
+  padding: 5px 50px;
+  color: #fdda02;
+  background-color: transparent;
+  border-color: #fdda02;
+  border-radius: 0;
+  &:hover {
+    @include btn-hover;
+  }
+}
+
+.number-item {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.item-number {
+  font-size: 3rem;
+  color: #fdda02;
+  font-family: $prox-black;
+}
+
+.item-description {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.number-box {
+  padding: 0 5vw;
+}

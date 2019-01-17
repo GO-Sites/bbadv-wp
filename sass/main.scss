@@ -6,11 +6,14 @@
 @import "views/header.scss";
 @import "views/video.scss";
 @import "views/client.scss";
+@import "views/number.scss";
+@import "views/services.scss";
+@import "views/book.scss";
 
-
+//External archives
 @import "../assets/font/font.css";
-//Padrao
 
+//Padrao
 html, body {
     display: block;
     position: relative;
