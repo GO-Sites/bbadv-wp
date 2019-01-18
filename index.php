@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 
-  <!-- Head --> <?php include 'conf/head.php' ?>
+  <!-- Head --> 
+  <?php include 'conf/head.php' ?>
 
 <body>
   <!-- Views -->
@@ -13,7 +14,9 @@
   <?php include 'views/services.php'; ?>
   <?php include 'views/book.php'; ?>
 
-  <!-- Scripts --> <?php include 'conf/scripts.php' ?>
+  <!-- Scripts --> 
+  <?php include 'conf/scripts.php' ?>
+  
 </body>
 
 </html>
