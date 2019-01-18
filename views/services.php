@@ -1,16 +1,16 @@
 <section class="section services">
-  <div class="container">
+  <div class="container services-container">
     <!-- video -->
     <div class="video-services"><iframe width="560" height="315" src="https://www.youtube.com/embed/lM02vNMRRB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     <!-- heading -->
-    <h3 class="title-services">Nossos Serviços</h3>
-    <h5 class="subtitle">
+    <h3 class="title-services services-content">Nossos Serviços</h3>
+    <h5 class="subtitle services-content">
       Na BBADV você conta com uma equipe jurídica e negociadores experientes para
       assessorar seu Condomínio ou Associação em questões como:
     </h5>
     <!-- grid -->
-    <div class="row">
-      <div class="container">
+    <div class="row services-content">
+      <div class="container services-container">
         <div class="slider-services">
           <div class="card">
             <div class="icon"><i class="fa fa-headset"></i></div>
@@ -56,7 +56,7 @@
       </div>
     </div>
     <!-- services button -->
-    <div class="service-button">
+    <div class="service-button services-content">
       <a href="#" class="btn">SOLICITE UMA VISITA</a>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <section class="section number">
   <div class="container">
     <!-- heading -->
-    <h3 class="title">Nossos números</h3>
+    <h3 class="title-number">Nossos números</h3>
     <!-- grid -->
     <div class="row">
       <div class="col-md-3 number-box">

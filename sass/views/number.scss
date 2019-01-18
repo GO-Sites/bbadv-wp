@@ -9,15 +9,17 @@
   }
 }
 
-.title {
+.title-number {
   text-align: center;
   text-transform: uppercase;
   font-size: 2.5rem;
   color: #fdda02;
+  font-family: $prox-black;
+  font-size: 40px;
 }
 
 .btn {
-  padding: 5px 50px;
+  padding: 15px 50px 5px;  
   color: #fdda02;
   background-color: transparent;
   border-color: #fdda02;

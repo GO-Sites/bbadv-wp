@@ -1,0 +1,53 @@
+.form-section {
+  text-align: center;
+}
+
+.title-form {
+  color: #333d47;
+  font-size: 3rem;
+  font-family: $prox-black;
+}
+
+.subtitle {
+  font-family: $prox;
+}
+
+.form-contact {
+  display: block;
+  position: relative;
+  max-width: 65%;
+  margin: auto;
+}
+
+.submit {
+  display: block;
+  width: 100%;
+  padding: 15px 10px 5px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #fdda02;
+  border: none;
+  border-radius: 0;
+  font-family: $gotham;
+  &:hover {
+    @include btn-hover;
+    color: #ffffff;
+    background-color: #333d47;
+  }
+}
+
+.form-control {
+  font-size: 14px;
+  text-align: center;
+  border-color: #333d47;
+  border-radius: 0;
+  &::placeholder {
+    color: #333d47;
+    opacity: 70%;
+  }
+
+  &:active, &:focus {
+    border-color: $default-yellow;
+    outline: none;
+  }
+}

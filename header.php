@@ -1,5 +1,5 @@
-<header class="header">
-  <div class="container">
+<header class="header" id="header">
+  <div class="container header-container">
     <ul class="top-contact">
       <li class="top-contact-list">
         <span><img src="assets/icon/map-marker-alt.svg" class="img-icon" alt="Img Place Map"></span>
@@ -19,7 +19,7 @@
 
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg">
-    <div class="container">
+    <div class="container header-container">
       <a class="navbar-brand" href="#">
         <img src="assets/img/logo-navbar.png" alt="">
       </a>

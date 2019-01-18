@@ -1,14 +1,19 @@
 .book {
   background-color: #333d47;
 
+  .book-container {
+    max-width: 90vw;
+  }
+
   &-text {
     color: #fff;
   }
 
-  .title {
+  .title-book {
     text-align: left;
     font-size: 2.5rem;
     color: $default-yellow;
+    font-family: $prox-black;
   }
 
   .book-text {
@@ -20,6 +25,8 @@
   .btn {
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     background-color: transparent;
     border-color: $default-yellow;
     border-radius: 0;

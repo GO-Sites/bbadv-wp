@@ -1,5 +1,5 @@
 <section class="section client">
-  <div class="container">
+  <div class="container client-container">
     <!-- title -->
     <h2 class="client-title">
       Mais de 200 clientes satisfeitos
@@ -23,7 +23,7 @@
             <img src="https://via.placeholder.com/50x50" class="user-icon" alt="User Logo">
             <div class="user-info">
               <h5 class="user-name">Jon Doe</h5>
-              <p class="user-position">Síndico</p>
+              <p class="user-position">Síndico<br><span class="user-position user-date">18/01/2019</span></p>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
             <img src="https://via.placeholder.com/50x50" class="user-icon" alt="User Logo">
             <div class="user-info">
               <h5 class="user-name">Jon Doe</h5>
-              <p class="user-position">Síndico</p>
+              <p class="user-position">Síndico<br><span class="user-position user-date">18/01/2019</span></p>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@
             <img src="https://via.placeholder.com/50x50" class="user-icon" alt="User Logo">
             <div class="user-info">
               <h5 class="user-name">Jon Doe</h5>
-              <p class="user-position">Síndico</p>
+              <p class="user-position">Síndico<br><span class="user-position user-date">18/01/2019</span></p>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@
             <img src="https://via.placeholder.com/50x50" class="user-icon" alt="User Logo">
             <div class="user-info">
               <h5 class="user-name">Jon Doe</h5>
-              <p class="user-position">Síndico</p>
+              <p class="user-position">Síndico<br><span class="user-position user-date">18/01/2019</span></p>
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@
             <img src="https://via.placeholder.com/50x50" class="user-icon" alt="User Logo">
             <div class="user-info">
               <h5 class="user-name">Jon Doe</h5>
-              <p class="user-position">Síndico</p>
+              <p class="user-position">Síndico<br><span class="user-position user-date">18/01/2019</span></p>
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@
             <img src="https://via.placeholder.com/50x50" class="user-icon" alt="User Logo">
             <div class="user-info">
               <h5 class="user-name">Jon Doe</h5>
-              <p class="user-position">Síndico</p>
+              <p class="user-position">Síndico<br><span class="user-position user-date">18/01/2019</span></p>
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@
             <img src="https://via.placeholder.com/50x50" class="user-icon" alt="User Logo">
             <div class="user-info">
               <h5 class="user-name">Jon Doe</h5>
-              <p class="user-position">Síndico</p>
+              <p class="user-position">Síndico<br><span class="user-position user-date">18/01/2019</span></p>
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@
             <img src="https://via.placeholder.com/50x50" class="user-icon" alt="User Logo">
             <div class="user-info">
               <h5 class="user-name">Jon Doe</h5>
-              <p class="user-position">Síndico</p>
+              <p class="user-position">Síndico<br><span class="user-position user-date">18/01/2019</span></p>
             </div>
           </div>
         </div>
@@ -183,7 +183,7 @@
             <img src="https://via.placeholder.com/50x50" class="user-icon" alt="User Logo">
             <div class="user-info">
               <h5 class="user-name">Jon Doe</h5>
-              <p class="user-position">Síndico</p>
+              <p class="user-position">Síndico<br><span class="user-position user-date">18/01/2019</span></p>
             </div>
           </div>
         </div>
@@ -203,7 +203,7 @@
             <img src="https://via.placeholder.com/50x50" class="user-icon" alt="User Logo">
             <div class="user-info">
               <h5 class="user-name">Jon Doe</h5>
-              <p class="user-position">Síndico</p>
+              <p class="user-position">Síndico<br><span class="user-position user-date">18/01/2019</span></p>
             </div>
           </div>
         </div>

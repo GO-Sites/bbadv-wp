@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-  <!-- Head --> 
+  <!-- Head -->
   <?php include 'conf/head.php' ?>
 
 <body>
@@ -13,10 +13,16 @@
   <?php include 'views/number.php'; ?>
   <?php include 'views/services.php'; ?>
   <?php include 'views/book.php'; ?>
+  <?php include 'views/form.php'; ?>
+  <?php include 'footer.php'; ?>
 
-  <!-- Scripts --> 
+  <a href="#header" class="float">
+    <img src="assets/icon/arrow-up.svg" alt="">
+  </a>
+
+  <!-- Scripts -->
   <?php include 'conf/scripts.php' ?>
-  
+
 </body>
 
 </html>

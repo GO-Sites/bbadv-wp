@@ -70,7 +70,7 @@
 </div>
 
 <div class="arrow-down">
-  <a href="#" class="arrow-down-btn">
+  <a href="#video" class="arrow-down-btn">
     <p>CONHEÇA A BBADV</p>
     <img src="assets/icon/arrow-down.svg" class="animated infinite heartBeat slow btn-icon" alt="">
   </a>
