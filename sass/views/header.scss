@@ -64,10 +64,12 @@
   .carousel-item {
     min-height: 400px;
     @include mobile {
-      min-height: 200px;
+      min-height: 100px;
       img {
         width: auto !important;
         height: 100%;
+        position: relative;
+        left: -100%;
       }
     }
   }
@@ -134,10 +136,15 @@
       width: 32vw;
     }
   }
+  @include mobile-xs {
+    img {
+      width: 22vw;
+    }
+  }
 }
 
 .mobile-social {
-  margin-top: -12%;
+  margin-top: -45%;
   button {
     background-color: $blued-gray;
     width: 45px;
@@ -151,17 +158,23 @@
       height: 25px;
     }
   }
+  @include mobile-xs {
+    margin-top: -32%;
+  }
 }
 
 .navbar-collapse {
   @include mobile {
     width: auto;
+    margin: 0 auto;
     padding: 4vh;
     background-color: rgba(51, 61, 71, 0.7);
     .navbar-nav {
         display: block !important;
         margin: 0 auto !important;
         text-align: center !important;
+        position: relative;
+        left: -4%;
     }
   }
 }

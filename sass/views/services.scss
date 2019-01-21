@@ -9,6 +9,12 @@
       text-align: center;
       display: block;
       margin: 0 auto;
+      @include mobile {
+        width: 85vw;
+        height: 40vh;
+        display: block;
+        margin: 0 auto;
+      }
     }
   }
 
@@ -27,6 +33,9 @@
     font-weight: bold;
     color: $blued-gray;
     font-size: 18px;
+    @include mobile {
+      max-width: 80vw;
+    }
 }
 
   .btn {
@@ -69,4 +78,7 @@
 
 .services-container {
   max-width: 90vw;
+  @include mobile {
+    max-width: 80vw;
+  }
 }

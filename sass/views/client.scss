@@ -1,5 +1,8 @@
 .client-container{
   max-width: 90vw;
+  @include mobile {
+    max-width: 80vw;
+  }
 }
 
 .client-title {
@@ -27,11 +30,18 @@
     line-height: 1;
     height: 4vh;
     color: $blued-gray;
+    @include mobile {
+      height: 10vh;
+      margin: 1px 0;
+    }
   }
   .card-text {
     font-family: $prox;
     font-weight: bold;
     font-size: 18px;
+    @include mobile {
+      font-size: 14px;
+    }
   }
 }
 
@@ -73,7 +83,7 @@
 .user-date {
   font-size: 12px;
   position: relative;
-  margin-top: -3%; 
+  margin-top: -3%;
   display: block;
   font-weight: lighter;
 }

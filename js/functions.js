@@ -1,7 +1,6 @@
 $(document).ready(function(){
   //Bootstrap
   $('.carousel').carousel();
-  $('.collapse').collapse();
 
 
   //Slick carousel
@@ -15,7 +14,7 @@ $(document).ready(function(){
     nextArrow:"<img class='a-right control-c next slick-next' src='assets/icon/slide-arrow-black-r.svg'>",
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1360,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -24,14 +23,14 @@ $(document).ready(function(){
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3
+          slidesToShow: 2,
+          slidesToScroll: 2
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -53,7 +52,7 @@ $(document).ready(function(){
     nextArrow:"<img class='a-right control-c next slick-next' src='assets/icon/slide-arrow-black-r.svg'>",
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1360,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -62,14 +61,14 @@ $(document).ready(function(){
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3
+          slidesToShow: 2,
+          slidesToScroll: 2
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -134,11 +133,23 @@ $(document).ready(function(){
     var windowsize = $window.width();
     if (windowsize <= 600) {
       $('.desktop-social').removeClass('show').addClass('hide'),
-      $('.mobile-social').removeClass('hide').addClass('show')
+      $('.mobile-social').removeClass('hide').addClass('show'),
+      ScrollReveal().destroy('.nav-link'),
+      $('.logo').attr("src","assets/img/logo-footer.png"),
+      $('.cartilha').html("BAIXE A CARTILHA<br>“A GENTE COBRA MAS É POR UMA BOA CAUSA!”")
     }
     else {
       $('.mobile-social').removeClass('show').addClass('hide'),
-      $('.desksocial').removeClass('hide').addClass('show')
+      $('.desktop-social').removeClass('hide').addClass('show'),
+      $('.logo').attr("src","assets/img/logo-navbar.png"),
+      $('.cartilha').text("BAIXE A CARTILHA “A GENTE COBRA MAS É POR UMA BOA CAUSA!”")
+      ScrollReveal().reveal('.nav-link', {
+        delay: 500,
+        interval: 500,
+        origin: 'bottom',
+        distance: '20%',
+        duration: 1000
+      });
     }
   }
   // Execute on load
@@ -155,20 +166,21 @@ $(document).ready(function(){
     duration: 1000
   });
 
-  ScrollReveal().reveal('.nav-link', {
-    delay: 500,
-    interval: 500,
-    origin: 'bottom',
-    distance: '20%',
-    duration: 1000
-  });
+  // ScrollReveal().reveal('.nav-link', {
+  //   delay: 500,
+  //   interval: 500,
+  //   origin: 'bottom',
+  //   distance: '20%',
+  //   duration: 1000
+  // });
 
   ScrollReveal().reveal('.top-contact-list', {
     delay: 1500,
     interval: 500,
     origin: 'top',
     distance: '20%',
-    duration: 1000
+    duration: 1000,
+    reset: true
   });
 
   //slider

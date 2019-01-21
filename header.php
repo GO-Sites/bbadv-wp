@@ -23,12 +23,12 @@
 
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg">
-    <div class="container header-container">
+    <div class="container header-container col-sm-12">
       <a class="navbar-brand" href="#">
-        <img src="assets/img/logo-navbar.png" alt="">
+        <img class="logo" src="assets/img/logo-navbar.png" alt="">
       </a>
 
-      <div class="container header-container mobile-social">
+      <div class="container header-container mobile-social col-sm-12">
         <ul class="top-contact">
           <li class="top-contact-list">
             <span><a href="tel:853268161"><img src="assets/icon/map-marker-alt.svg" class="img-icon" alt="Img Place Map"></a></span>
@@ -49,7 +49,7 @@
         </ul>
       </div>
 
-      <div class="collapse navbar-collapse navbar-end" id="navbarNavDropdown">
+      <div class="navbar-collapse collapse navbar-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#">

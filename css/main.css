@@ -69,11 +69,13 @@
 }
 @media only screen and (max-width: 600px) {
   .carousel-item {
-    min-height: 200px;
+    min-height: 100px;
   }
   .carousel-item img {
     width: auto !important;
     height: 100%;
+    position: relative;
+    left: -100%;
   }
 }
 
@@ -140,9 +142,14 @@
     width: 32vw;
   }
 }
+@media only screen and (max-width: 360px) {
+  .navbar-brand img {
+    width: 22vw;
+  }
+}
 
 .mobile-social {
-  margin-top: -12%;
+  margin-top: -45%;
 }
 .mobile-social button {
   background-color: #333d47;
@@ -157,10 +164,16 @@
   width: 25px;
   height: 25px;
 }
+@media only screen and (max-width: 360px) {
+  .mobile-social {
+    margin-top: -32%;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .navbar-collapse {
     width: auto;
+    margin: 0 auto;
     padding: 4vh;
     background-color: rgba(51, 61, 71, 0.7);
   }
@@ -168,6 +181,8 @@
     display: block !important;
     margin: 0 auto !important;
     text-align: center !important;
+    position: relative;
+    left: -4%;
   }
 }
 
@@ -247,6 +262,11 @@
 .client-container {
   max-width: 90vw;
 }
+@media only screen and (max-width: 600px) {
+  .client-container {
+    max-width: 80vw;
+  }
+}
 
 .client-title {
   font-size: 2.5rem;
@@ -275,10 +295,21 @@
   height: 4vh;
   color: #333d47;
 }
+@media only screen and (max-width: 600px) {
+  .card .aspa {
+    height: 6vh;
+    margin: 1px 0;
+  }
+}
 .card .card-text {
   font-family: "Proxima Nova Rg";
   font-weight: bold;
   font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+  .card .card-text {
+    font-size: 14px;
+  }
 }
 
 .card-body {
@@ -375,6 +406,18 @@
   margin-top: 80px;
   margin-bottom: 80px;
 }
+@media only screen and (max-width: 600px) {
+  .number-item {
+    margin: 40px 0;
+    text-align: center;
+  }
+  .number-item h5 {
+    font-size: 16vw;
+  }
+  .number-item p {
+    font-size: 20px;
+  }
+}
 
 .item-number {
   font-size: 3rem;
@@ -403,6 +446,14 @@
   display: block;
   margin: 0 auto;
 }
+@media only screen and (max-width: 600px) {
+  .services .video-services iframe {
+    width: 85vw;
+    height: 40vh;
+    display: block;
+    margin: 0 auto;
+  }
+}
 .services .title-services {
   margin-top: 40px;
   font-size: 3rem;
@@ -417,6 +468,11 @@
   font-weight: bold;
   color: #333d47;
   font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+  .services .subtitle {
+    max-width: 80vw;
+  }
 }
 .services .btn {
   padding: 15px 50px 5px;
@@ -460,6 +516,11 @@
 .services-container {
   max-width: 90vw;
 }
+@media only screen and (max-width: 600px) {
+  .services-container {
+    max-width: 80vw;
+  }
+}
 
 .book {
   background-color: #333d47;
@@ -476,10 +537,21 @@
   color: #fdda02;
   font-family: "Proxima Nova Bl";
 }
+@media only screen and (max-width: 600px) {
+  .book .title-book {
+    text-align: center;
+  }
+}
 .book .book-text {
   margin: 40px 0;
   font-family: "Proxima Nova Rg";
   max-width: 40vw;
+}
+@media only screen and (max-width: 600px) {
+  .book .book-text {
+    max-width: 80vw;
+    text-align: center;
+  }
 }
 .book .btn {
   padding-left: 50px;
@@ -498,6 +570,18 @@
   -webkit-box-shadow: 7px 6px 28px -5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 7px 6px 28px -5px rgba(0, 0, 0, 0.3);
   box-shadow: 7px 6px 28px -5px rgba(0, 0, 0, 0.3);
+}
+@media only screen and (max-width: 600px) {
+  .book .btn {
+    left: 10%;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .book .book-img {
+    position: relative;
+    left: -4%;
+  }
 }
 
 .form-section {
@@ -519,6 +603,11 @@
   position: relative;
   max-width: 65%;
   margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .form-contact {
+    max-width: 80vw;
+  }
 }
 
 .submit {

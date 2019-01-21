@@ -19,7 +19,7 @@
 }
 
 .btn {
-  padding: 15px 50px 5px;  
+  padding: 15px 50px 5px;
   color: #fdda02;
   background-color: transparent;
   border-color: #fdda02;
@@ -32,6 +32,16 @@
 .number-item {
   margin-top: 80px;
   margin-bottom: 80px;
+  @include mobile {
+    margin: 40px 0;
+    text-align: center;
+    h5 {
+      font-size: 16vw;
+    }
+    p {
+       font-size: 20px;
+    }
+  }
 }
 
 .item-number {

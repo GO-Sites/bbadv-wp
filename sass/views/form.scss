@@ -17,6 +17,9 @@
   position: relative;
   max-width: 65%;
   margin: auto;
+  @include mobile {
+    max-width: 80vw;
+  }
 }
 
 .submit {
