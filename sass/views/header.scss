@@ -15,6 +15,9 @@
     list-style: none;
     font-size: .8rem;
     color: #ffffff;
+    @include mobile {
+      width: auto;
+    }
   }
 
   .btn-search {
@@ -28,6 +31,12 @@
 
   .img-icon {
     width: 15px;
+  }
+
+  .phone {
+    @include mobile {
+      width: 18px;
+    }
   }
 
   .header-container {
@@ -54,6 +63,13 @@
 
   .carousel-item {
     min-height: 400px;
+    @include mobile {
+      min-height: 200px;
+      img {
+        width: auto !important;
+        height: 100%;
+      }
+    }
   }
 
   .carousel-caption::after {
@@ -71,6 +87,9 @@
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
+    @include mobile{
+      width: 10vw;
+    }
   }
 
   .carousel-caption {
@@ -108,3 +127,41 @@
     width: 35px;
     height: auto;
   }
+
+.navbar-brand {
+  @include mobile {
+    img {
+      width: 32vw;
+    }
+  }
+}
+
+.mobile-social {
+  margin-top: -12%;
+  button {
+    background-color: $blued-gray;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 0;
+    span {
+      color: $default-yellow;
+      margin: -5px auto;
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+.navbar-collapse {
+  @include mobile {
+    width: auto;
+    padding: 4vh;
+    background-color: rgba(51, 61, 71, 0.7);
+    .navbar-nav {
+        display: block !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+  }
+}

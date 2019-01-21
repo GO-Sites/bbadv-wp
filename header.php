@@ -1,12 +1,16 @@
 <header class="header" id="header">
-  <div class="container header-container">
+  <div class="container header-container desktop-social">
     <ul class="top-contact">
       <li class="top-contact-list">
         <span><img src="assets/icon/map-marker-alt.svg" class="img-icon" alt="Img Place Map"></span>
         Av. Des. Moreira, 1701 - Aldeota, Fortaleza - CE
       </li>
       <li class="top-contact-list">
-        <span><img src="assets/icon/whatsapp.svg" class="img-icon" alt="Whatsapp Icon"></span>
+        <span>
+          <a href="tel:853268161">
+            <img src="assets/icon/tel-icon.svg" class="img-icon" alt="Whatsapp Icon">
+          </a>
+        </span>
         (85) 3268-1601
       </li>
       <li class="top-contact-list">
@@ -23,9 +27,28 @@
       <a class="navbar-brand" href="#">
         <img src="assets/img/logo-navbar.png" alt="">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+
+      <div class="container header-container mobile-social">
+        <ul class="top-contact">
+          <li class="top-contact-list">
+            <span><a href="tel:853268161"><img src="assets/icon/map-marker-alt.svg" class="img-icon" alt="Img Place Map"></a></span>
+          </li>
+          <li class="top-contact-list">
+            <span><img src="assets/icon/tel-icon.svg" class="img-icon phone" alt="Phone Icon"></span>
+          </li>
+          <li class="top-contact-list">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" role="button" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon fa fa-bars"></span>
+            </button>
+          </li>
+          <li class="top-contact-list">
+            <a href="#" class="top-contact-link btn-search">
+              <i class="fas fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
       <div class="collapse navbar-collapse navbar-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">

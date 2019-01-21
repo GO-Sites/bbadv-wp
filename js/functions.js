@@ -1,6 +1,8 @@
 $(document).ready(function(){
-  //Bootstrap carousel
-  $('.carousel').carousel()
+  //Bootstrap
+  $('.carousel').carousel();
+  $('.collapse').collapse();
+
 
   //Slick carousel
   $('.slider').slick({
@@ -112,7 +114,8 @@ $(document).ready(function(){
     console.error(value4.error);
   }
 
-  //Own function
+  //Own functions:
+  //1. float button
   $('.float').hover(
     function(){
       $(this).addClass('animated bounce infinite')
@@ -123,6 +126,24 @@ $(document).ready(function(){
     }
 
   );
+
+  //2. responsive
+  var $window = $(window);
+
+  function checkWidth() {
+    var windowsize = $window.width();
+    if (windowsize <= 600) {
+      $('.desktop-social').removeClass('show').addClass('hide'),
+      $('.mobile-social').removeClass('hide').addClass('show')
+    }
+    else {
+      $('.mobile-social').removeClass('show').addClass('hide'),
+      $('.desksocial').removeClass('hide').addClass('show')
+    }
+  }
+  // Execute on load
+  checkWidth();
+  $(window).resize(checkWidth);
 
 
   //Scroll reveal
