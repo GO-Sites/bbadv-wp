@@ -8,6 +8,19 @@
   z-index: 1;
 }
 
+.close-btn {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 5%;
+  padding: 2vh 0;
+  cursor: pointer;
+}
+.close-btn .close-icon {
+  width: 10vw;
+  height: auto;
+}
+
 .top-contact {
   display: flex;
   justify-content: flex-end;
@@ -63,6 +76,11 @@
   color: #fdda02;
   transform: translateY(-5px);
 }
+@media only screen and (max-width: 600px) {
+  .nav-link {
+    margin-top: 2vh;
+  }
+}
 
 .carousel-item {
   min-height: 400px;
@@ -88,6 +106,12 @@
   width: 100%;
   background-color: #fdda02;
 }
+@media only screen and (max-width: 600px) {
+  .carousel-caption::after {
+    margin-top: 10px;
+    height: 4px;
+  }
+}
 
 .slide-row {
   display: flex;
@@ -96,14 +120,37 @@
   text-transform: uppercase;
 }
 @media only screen and (max-width: 600px) {
-  .slide-row {
-    width: 10vw;
+  .slide-row .slide-row-item h5 {
+    font-size: 12px;
   }
 }
 
 .carousel-caption {
   text-align: left;
-  bottom: 35vh;
+  bottom: 40vh;
+}
+@media only screen and (max-width: 600px) {
+  .carousel-caption {
+    bottom: 25vh;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .carousel-caption {
+    bottom: 45vh;
+  }
+}
+@media only screen and (width: 360px) {
+  .carousel-caption {
+    bottom: 39vh;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1220px) {
+  .carousel-caption {
+    bottom: 20vh;
+  }
+  .carousel-caption h5 {
+    font-size: 16px;
+  }
 }
 
 .carousel-control-prev-icon,
@@ -119,11 +166,22 @@
   transform: rotate(180deg);
 }
 
+@media only screen and (max-width: 600px) {
+  .carousel-control-next, .carousel-control-prev {
+    top: 15%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .carousel-control-next, .carousel-control-prev {
+    top: -5%;
+  }
+}
+
 .arrow-down {
   text-align: center;
   position: absolute;
   left: 50%;
-  z-index: 1;
+  z-index: 0;
   transform: translate(-50%, -115px);
 }
 
@@ -172,20 +230,43 @@
 
 @media only screen and (max-width: 600px) {
   .navbar-collapse {
-    width: auto;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
     margin: 0 auto;
     padding: 4vh;
-    background-color: rgba(51, 61, 71, 0.7);
+    background-color: rgba(51, 61, 71, 0.9);
   }
   .navbar-collapse .navbar-nav {
-    display: block !important;
-    margin: 0 auto !important;
-    text-align: center !important;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
     position: relative;
     left: -4%;
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .navbar {
+    position: absolute;
+    top: 2vh;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1220px) {
+  .navbar {
+    position: absolute;
+    top: 6vh;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1220px) {
+  .nav-item a {
+    font-size: 12px;
+  }
+}
 .video {
   text-align: center;
   background-color: #333d47;
@@ -297,7 +378,7 @@
 }
 @media only screen and (max-width: 600px) {
   .card .aspa {
-    height: 6vh;
+    height: 10vh;
     margin: 1px 0;
   }
 }
@@ -448,10 +529,12 @@
 }
 @media only screen and (max-width: 600px) {
   .services .video-services iframe {
-    width: 85vw;
+    width: 80vw;
     height: 40vh;
     display: block;
     margin: 0 auto;
+    position: relative;
+    left: -5%;
   }
 }
 .services .title-services {
@@ -677,6 +760,19 @@
   color: #fdda02;
   transform: translateY(-5px);
 }
+@media only screen and (max-width: 600px) {
+  .footer-nav-link {
+    margin-bottom: 4vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer-nav {
+    display: block;
+    max-width: 50vw;
+    margin: -8vh auto 8vh;
+    text-align: center;
+  }
+}
 
 .footer-address {
   padding-left: 0;
@@ -684,6 +780,11 @@
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .footer-address li {
+    margin: 2vh 0;
+  }
 }
 
 .icon-footer {
@@ -710,6 +811,14 @@
   -webkit-box-shadow: 7px 6px 28px -5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 7px 6px 28px -5px rgba(0, 0, 0, 0.3);
   box-shadow: 7px 6px 28px -5px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-footer {
+    max-width: 60vw;
+    margin: 8vh auto 5vh;
+    display: block;
+  }
 }
 
 html, body {
@@ -767,6 +876,14 @@ span[id^=carousel_next] {
   bottom: 40px;
   right: 40px;
   overflow-x: hidden;
+}
+@media only screen and (max-width: 600px) {
+  .float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+  }
 }
 
 .btn {

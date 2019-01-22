@@ -1,7 +1,7 @@
 <footer class="section footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-5 col-sm-12 col-xs-12">
         <nav class="menu-footer">
           <ul class="footer-nav">
             <li class="footer-nav-item">
@@ -27,19 +27,13 @@
           </ul>
         </nav>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 col-sm-12 col-xs-12">
         <ul class="footer-address">
           <li class="address-item">
             <span class="icon-footer">
               <img src="assets/icon/tel-icon.svg" alt="">
             </span>
             (85) 3268-1601
-          </li>
-          <li class="address-item">
-            <span class="icon-footer">
-              <img src="assets/icon/whatsapp.svg" alt="">
-            </span>
-            (85) 98685-9620
           </li>
           <li class="address-item">
             <span class="icon-footer">
@@ -50,11 +44,11 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-12 col-xs-12">
         <a href="#" class="btn btn-primary footer-btn">FALE CONOSCO</a>
         <a href="#" class="btn btn-primary footer-btn">TRABALHE CONOSCO</a>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 col-sm-12 col-xs-12">
         <img src="assets/img/logo-footer.png" class="w-100 logo-footer" alt="">
       </div>
     </div>

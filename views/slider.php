@@ -3,7 +3,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="assets/img/home-bg.png" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <div class="slide-row">
           <div class="slide-row-item">
             <h5>SEM ELE</h5>
@@ -11,7 +11,7 @@
             <h5>no condomínio</h5>
             <h5>seria impossível</h5>
           </div>
-          <div class="slide-row-item">
+          <div class="slide-row-item text-right">
             <h5>SEM ELE</h5>
             <h5>a boa conviência</h5>
             <h5>no condomínio</h5>
@@ -22,7 +22,7 @@
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="assets/img/home-bg.png" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <div class="slide-row">
           <div class="slide-row-item">
             <h5>SEM ELE</h5>
@@ -30,7 +30,7 @@
             <h5>no condomínio</h5>
             <h5>seria impossível</h5>
           </div>
-          <div class="slide-row-item">
+          <div class="slide-row-item text-right">
             <h5>SEM ELE</h5>
             <h5>a boa conviência</h5>
             <h5>no condomínio</h5>
@@ -41,7 +41,7 @@
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="assets/img/home-bg.png" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <div class="slide-row">
           <div class="slide-row-item">
             <h5>SEM ELE</h5>
@@ -49,7 +49,7 @@
             <h5>no condomínio</h5>
             <h5>seria impossível</h5>
           </div>
-          <div class="slide-row-item">
+          <div class="slide-row-item text-right">
             <h5>SEM ELE</h5>
             <h5>a boa conviência</h5>
             <h5>no condomínio</h5>

@@ -51,13 +51,16 @@
 
       <div class="navbar-collapse collapse navbar-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
+          <li class="nav-item">
+            <span class="close-btn"><img src="assets/icon/cancel.svg" alt="Close menu" class="close-icon"></span>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#video">
               SOBRE NÓS
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#services">
               NOSSOS SERVIÇOS
             </a>
           </li>

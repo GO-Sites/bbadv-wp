@@ -131,18 +131,27 @@ $(document).ready(function(){
 
   function checkWidth() {
     var windowsize = $window.width();
-    if (windowsize <= 600) {
+    if (windowsize <= 680) {
       $('.desktop-social').removeClass('show').addClass('hide'),
       $('.mobile-social').removeClass('hide').addClass('show'),
       ScrollReveal().destroy('.nav-link'),
       $('.logo').attr("src","assets/img/logo-footer.png"),
-      $('.cartilha').html("BAIXE A CARTILHA<br>“A GENTE COBRA MAS É POR UMA BOA CAUSA!”")
+      $('.logo-footer').attr("src","assets/img/logo-navbar.png"),
+      $('.cartilha').html("BAIXE A CARTILHA<br>“A GENTE COBRA MAS É POR UMA BOA CAUSA!”"),
+      $('.close-btn').on('click', function() {
+        $('.collapse').collapse('hide')
+      });
+      $('.nav-link').on('click', function() {
+        $('.collapse').collapse('hide')
+      });
     }
     else {
       $('.mobile-social').removeClass('show').addClass('hide'),
       $('.desktop-social').removeClass('hide').addClass('show'),
       $('.logo').attr("src","assets/img/logo-navbar.png"),
-      $('.cartilha').text("BAIXE A CARTILHA “A GENTE COBRA MAS É POR UMA BOA CAUSA!”")
+      $('.logo-footer').attr("src","assets/img/logo-footer.png"),
+      $('.cartilha').text("BAIXE A CARTILHA “A GENTE COBRA MAS É POR UMA BOA CAUSA!”"),
+      $('.close-btn').addClass('hide');
       ScrollReveal().reveal('.nav-link', {
         delay: 500,
         interval: 500,
@@ -179,8 +188,7 @@ $(document).ready(function(){
     interval: 500,
     origin: 'top',
     distance: '20%',
-    duration: 1000,
-    reset: true
+    duration: 1000
   });
 
   //slider
@@ -317,7 +325,7 @@ $(document).ready(function(){
   });
 
   ScrollReveal().reveal('.submit', {
-    delay:1500,
+    delay: 500,
     reset: true,
     delay: 2500,
     origin: 'bottom',
